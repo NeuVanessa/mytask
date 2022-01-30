@@ -1,0 +1,35 @@
+.inputForm {
+  display: flex;
+  align-items: center;
+  background-color: #fdfafa;
+  border-radius: 5px;
+  padding: 3px;
+  width: 90%;
+  border: 1px solid #191a16;
+}
+.inputForm input {
+  background: transparent;
+  width: 100%;
+  outline-width: 0;
+  color: #191a16;
+  border: none;
+  font-size: 17px;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 40px;
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .inputForm {
+    display: flex;
+    height: 20px;
+    font-size: 15px;
+  }
+  .inputForm > input {
+    display: flex;
+    height: 20px;
+    font-size: 15px;
+    color: #191a16;
+  }
+}

@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  justify-content: center;
+  font-family: sans-serif;
+  color: #fdfafa;
+  height: 40px;
+  background-color: #6d446d;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    display: none;
+  }
+}

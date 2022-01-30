@@ -1,0 +1,130 @@
+.screen-signin,
+.screen-register {
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+  width: 100vw;
+  background-color: #ffff;
+}
+
+.aside-left {
+  background: url("../../assets/image-esquerda.png");
+  background-size: cover;
+  height: 100vh;
+  width: 50vw;
+  margin-right: 2rem;
+}
+
+.aside-right {
+  display: flex;
+  background-size: cover;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  width: 50vw;
+}
+
+.welcome {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2rem;
+  line-height: 19px;
+  color: #8a4e7d;
+  margin-bottom: 10px;
+}
+
+.title-signin {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 3.23rem;
+  line-height: 37px;
+  color: #000000;
+  margin-bottom: 32px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center !important;
+  gap: 22px;
+  width: 100%;
+}
+
+::placeholder {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.3rem;
+  line-height: 19px;
+  color: #191a16;
+}
+
+.button-signin {
+  border: none;
+  background: #6d446d;
+  border-radius: 8px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 1.9rem;
+  color: #191a16;
+  justify-content: center !important;
+  padding: 1.5rem;
+  align-self: center !important;
+  width: 60%;
+  margin: 22px;
+}
+.login-loginInputPassword {
+  display: flex;
+  align-items: center;
+  color: gray;
+  background-color: #fdfafa;
+  border-radius: 5px;
+  padding: 3px;
+  width: 60%;
+  border: 1px solid #191a16;
+}
+.login-loginInputPassword input {
+  background: transparent;
+  width: 100%;
+  outline-width: 0;
+  color: #191a16;
+  border: none;
+  font-size: 17px;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 40px;
+  border-radius: 8px;
+}
+.login-eye {
+  align-items: center;
+  justify-content: center;
+  font-size: 30;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+  .aside-left {
+    display: none;
+  }
+
+  .screen-signin,
+  .screen-register {
+    justify-content: center;
+    margin: 0;
+  }
+
+  .screen-signin,
+  .screen-register {
+    border: 0.7rem solid transparent;
+  }
+
+  .button-signin,
+  input {
+    width: 60%;
+  }
+}

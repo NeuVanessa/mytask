@@ -1,0 +1,30 @@
+.button-signin-form {
+  border: none;
+  background: #6d446d;
+  border-radius: 8px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1rem;
+  color: gray;
+  justify-content: center !important;
+  padding: 1rem;
+  align-self: center !important;
+  width: 50%;
+  }
+
+  @media (max-width: 768px) {
+    .button-signin-form {
+      height: 20px;
+      display: flex;
+      align-items: center;
+      
+    }
+
+
+  .title {
+    font-size: 10px;
+  }
+  
+  }
+  
